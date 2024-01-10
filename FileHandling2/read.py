@@ -1,0 +1,7 @@
+file = open('data.txt','r')
+#data = file.read(10)
+#data = file.readlines()
+file.seek(30)
+data = file.read()
+print(data)
+file.close()
